@@ -44,7 +44,9 @@ const ContributorListPage = ({ onUserClick }) => (
 
 const ContributorListItem = ({ onClick, user }) => (
   <TableRow key={user.id}>
-    <TableCell scope="row">{user.name}</TableCell>
+    <TableCell scope="row" onClick={onClick}>
+      {user.name}
+    </TableCell>
   </TableRow>
 );
 
