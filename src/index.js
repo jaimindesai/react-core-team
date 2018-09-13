@@ -1,4 +1,4 @@
-import React, { Placeholder, PureComponent, Fragment } from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import { coreContributorListJSON } from "../api/data";
 import Table from "@material-ui/core/Table";
